@@ -10,7 +10,6 @@ namespace PartsUnlimited.Models
         [Key]
         //Ma première modification  
         public int CartItemId { get; set; }
-        //Mon deuxieme changement 
         [Required]
         public string CartId { get; set; }
         public int ProductId { get; set; }
