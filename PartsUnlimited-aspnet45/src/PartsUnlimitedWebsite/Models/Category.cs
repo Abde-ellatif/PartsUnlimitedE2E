@@ -9,6 +9,7 @@ namespace PartsUnlimited.Models
 
         [Required]
         public string Name { get; set; }
+        // Mon troisieme changement
         public string Description { get; set; }
 
         public string ImageUrl { get; set; }
